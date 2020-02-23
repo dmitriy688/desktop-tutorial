@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Вакансия: Junior Frontend Developer</h1>
+        <img src="img/IMG_5620.JPG" width="25%" alt="моя фотография">
     <div>
-        <img src="img/IMG_5620.JPG" width="150" height="150" alt="моя фотография">
-    </div>
-    <p>
         Имя: Дмитрий <br>
-        <a href="https://github.com/dmitriy688/desktop-tutorial">Cсылка на репозиторий в Github</a><br>
+        <a href="https://github.com/dmitriy688/desktop-tutorial">https://github.com</a><br>
         Опыта работы: нет
-    </p>
+    </div>
     <div>
         <label>Дата собеседования:</label>
         <input type="date" name="" id="" Дата собеседования:>
@@ -42,27 +41,33 @@
         <li>...</li>
     </ul>
     <p>
-        <input type="text" placeholder="введите навык...">
+        <input class="navik" type="text" placeholder="введите навык...">
         <button>Добавить в список</button>
     </p>
-        <form>
-        Коммуникабельность:
-            <select>
-                <option>Общительный</option>
-                <option>Ненавязчивый</option>
-                <option>Дипломатичный</option>
-            </select>
+    <form id="komunikabelnost">Коммуникабельность:
+        <select>
+            <option>Общительный</option>
+            <option>Ненавязчивый</option>
+            <option>Дипломатичный</option>
+        </select>
     </form>
     </p>
     <p>Желаемая з/п:
         <input type="number" placeholder="введите значение...">
     </p>
-    <p>
-        <label for="Знание английского">Подходит по критериям:</label><br>
-        <input type="checkbox" name="Знание английского">Знание английского
-        <input type="checkbox" name="sub">Оклад
-        <input type="checkbox" name="sub">Навыки
-        <input type="checkbox" name="sub">Сразу видно, что свой человек
+    <p>Подходит по критериям:<br>
+        <label >
+            <input type="checkbox" name="Знание английского">Знание английского
+        </label>   
+        <label> 
+            <input type="checkbox" name="sub">Оклад
+        </label>  
+        <label>
+            <input type="checkbox" name="sub">Навыки
+        </label>
+        <label>
+            <input type="checkbox" name="sub">Сразу видно, что свой человек
+        </label>
     </p>
     <table border="1">
         <tr>
