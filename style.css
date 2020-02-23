@@ -45,3 +45,12 @@ input:hover {
     color: red;
     border: 2px solid red;
 }
+
+table {
+    color: red;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
