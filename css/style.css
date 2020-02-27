@@ -1,0 +1,76 @@
+h1 {
+    font-size: 30px;
+    color: black;
+    background-color: silver;
+    padding: 10px;
+    margin: auto;
+    width: 635px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    font-weight: 400
+}
+
+.marginoo {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    color: black;
+    background-color: silver;
+    letter-spacing: 1px;
+}
+
+div {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    color: black;
+}
+
+form {
+    color: black;
+}
+
+table {
+    color: black;
+}
+
+a {
+     color: white;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+input:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+table {
+    color: black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.block {
+    display: inline-block;
+    vertical-align: middle;
+}
